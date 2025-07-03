@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4caf50;
+    padding: 20px;
+    color: white;
+    border-bottom: 5px solid #388e3c;
+}
+
+.cabeçalho-título {
+    font-family: 'Irish Grover', cursive;
+    font-size: 2.5rem;
+}
+
+.cab-text-border {
+    background-color: #ffffff33;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.cabeçalho-logotipo {
+    height: 80px;
+}
+
+/* Estilo para os itens de produtos */
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.it1, .it2, .it3, .it4 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 23%;
+    min-width: 250px;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Descrição dos produtos */
+.it1 p, .it2 p, .it3 p, .it4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Seção de produtos agrícolas */
+.secao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #eef7e6;
+}
+
+.secao .it1, .secao .it2, .secao .it3 {
+    background-color: #fff;
+}
+
+/* Rodapé */
+.rodapé {
+    background-color: #4caf50;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #2e7d32;
+}
+
+.logo-estado,
+.logo-reserva,
+.logo-instagram {
+    height: 50px;
+    margin: 10px;
+}
+
+.slogan {
+    flex: 1;
+    text-align: center;
+}
+
+.importante {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.rodape-frase {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-family: 'Artifika', serif;
+}
+
+.desenvolvedor {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.contato a img {
+    height: 40px;
+}
+
+/*
